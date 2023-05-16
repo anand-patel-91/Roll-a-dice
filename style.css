@@ -1,16 +1,40 @@
 body{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     background: #ccc;
+    user-select: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:20px;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin:30px auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    
 }
 
 button{
-    font-size: 1.5rem;
-    background-color: #333;
-    color: #ddd;
+    font-size: 1.2rem;
+    background-color: #8000ff;
+    color: #ffffff;
+    padding: 10px;;
+    border-radius: 5px;
 }
 
 img{
     border-radius: 25px;
-    height: 200px;
+    height: 201px;
+    width: auto;
 }

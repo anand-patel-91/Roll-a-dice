@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roll a Dice</title>
-    <link rel="shortcut icon" href="img/icon.jpeg" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1 id="heading">Do you want to roll a dice?</h1>
-    <img id="dice" src="img/dice.png" alt=""">
-    <h2 id="msg"></h2>
-    <button id="start" onclick="rolldice()">Roll a dice</button>
+    <section>
+        <h1 id="heading">Do you want to roll a dice?</h1>
+        <img id="dice" src="img/dice.png" alt="" height="201px" width="201px">
+        <h2 id="msg">Click to Roll</h2>
+        <button id="start" onclick="rolldice()">Roll a dice</button>
+    </section>
     <audio id="aud" src="/aud/roll.wav"></audio>
     <script src="/script.js"></script>
 </body>
