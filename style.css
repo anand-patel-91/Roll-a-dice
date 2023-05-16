@@ -3,6 +3,8 @@ body{
     text-align: center;
     background: #cccccc;
     user-select: none;
+    display: flex;
+    justify-content: center;
 }
 
 *{
